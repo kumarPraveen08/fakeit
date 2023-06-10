@@ -1,0 +1,28 @@
+{
+  "name": "fakeit",
+  "version": "1.0.0",
+  "description": "fake details generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumarPraveen08/fakeit.git"
+  },
+  "keywords": [
+    "fake",
+    "name",
+    "fake",
+    "person",
+    "fake",
+    "address",
+    "generator"
+  ],
+  "author": "Praveen Prajapati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumarPraveen08/fakeit/issues"
+  },
+  "homepage": "https://github.com/kumarPraveen08/fakeit#readme"
+}
