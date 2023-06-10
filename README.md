@@ -1,0 +1,2 @@
+# fakeit
+fake details generator
