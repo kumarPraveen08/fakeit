@@ -1,10 +1,7 @@
 # FAKEIT
 
 Fake Details Generator
-<<<<<<< HEAD
 20+ functions and coming more...
-=======
->>>>>>> refs/remotes/origin/main
 
 ## Install
 
