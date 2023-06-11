@@ -173,7 +173,7 @@ username() String
 password(length, includeSpecialChars, includeSimilarChars) String // (16, true, true)
 ipV4Address() String
 ipV6Address() String
-hashtag(num) String
+hashtag(num) Array
 ```
 
 ### To DO
