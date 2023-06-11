@@ -26,9 +26,8 @@ const { person, country, book } = require("@praveen/fakeit");
 ```javascript
 const createRandomPerson = () => {
   return {
-    maleFirstName: person.male(),
+    maleFirstName: person.male(), // sparsh
     femaleFirstName: person.female(), // hina
-    name: person.female(), // sparsh
     lastname: person.surname(), // khandelwal
     fullname: person.name(), // sparsh khandelwal
     person: person.person(), // object - name with gender
