@@ -1,5 +1,8 @@
 # FAKEIT
 
+Fake Details Generator
+20+ functions and coming more...
+
 ## Install
 
 ```javascript
