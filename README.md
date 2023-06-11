@@ -1,7 +1,7 @@
 # FAKEIT
 
 Fake Details Generator  
-35+ functions and coming more...
+50+ functions and coming more...
 
 ## Install
 
@@ -155,9 +155,9 @@ company(); Object
 ### Image
 
 ```javascript
-image(int, int) String //(200,200)
-imageWithKeyword(int, int, string) String //(200,200,dog)
-templateImage(int, int, backgroundColor, textColor, imageFormat, text) String //(200,300,000000,ffffff,.png,placeholder)
+image(w, h) String // (200, 200)
+imageWithKeyword(w, h, string) String // (200, 200, dog)
+templateImage(w, h, bgColor, color, format, text) String // (200, 300, 000000, ffffff, .png, placeholder)
 ```
 
 ### Url
