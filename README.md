@@ -84,6 +84,7 @@ const createRandomCountry = () => {
 title() String
 author() String
 genre() String
+bookDetails() Object
 ```
 
 ### Country
@@ -137,6 +138,32 @@ echinoderm() String
 annelid() String
 sponge() String
 animal() Object
+```
+
+### Company
+
+```javascript
+companyName() String
+slogan() String
+smallSlogan() String
+sloganWithKeyword(string) String
+domain() String
+companyEmail() String
+company(); Object
+```
+
+### Image
+
+```javascript
+image(int, int) String //(200,200)
+imageWithKeyword(int, int, string) String //(200,200,dog)
+templateImage(int, int, backgroundColor, textColor, imageFormat, text) String //(200,300,000000,ffffff,.png,placeholder)
+```
+
+### Url
+
+```javascript
+url() String
 ```
 
 ### To DO
