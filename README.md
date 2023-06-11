@@ -166,6 +166,21 @@ templateImage(w, h, bgColor, color, format, text) String // (200, 300, 000000, f
 url() String
 ```
 
+### User
+
+```javascript
+username() String
+password(length, includeSpecialChars, includeSimilarChars) String // (16, true, true)
+ipV4Address() String
+ipV6Address() String
+hashtag(num) String
+```
+
 ### To DO
 
 #### Other methods and options are coming soon...
+
+User
+Credit card
+Car
+Post
