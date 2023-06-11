@@ -180,7 +180,7 @@ hashtag(num) Array
 
 #### Other methods and options are coming soon...
 
-User
-Credit card
-Car
+User  
+Credit card  
+Car  
 Post
