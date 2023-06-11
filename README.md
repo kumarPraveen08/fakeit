@@ -9,7 +9,9 @@ Fake Details Generator
 npm install fakeit ~~ upcoming
 ```
 
-## Usage
+## Simple Usage
+
+### Require
 
 ```javascript
 // ESM
@@ -17,45 +19,107 @@ import { person, country, book } from "@praveen/fakeit";
 
 // CJS
 const { person, country, book } = require("@praveen/fakeit");
+```
 
+### Person
+
+```javascript
 const createRandomPerson = () => {
   return {
-    fisrtname: person.first(),
-    lastname: person.surname(),
-    fullname: person.fullname(),
-    gender: person.gender(),
-    prefix: person.prefix(),
-    suffix: person.suffix(),
-  };
-};
-
-const createRandomBook = () => {
-  return {
-    title: book.title(),
-    author: book.author(),
-    genre: book.genre(),
-  };
-};
-
-const createRandomCountry = () => {
-  return {
-    name: country.name(),
-    state: country.state(),
-    city: country.city(),
-    pincode: country.postalCode(),
-    houseNo: country.house(),
-    address: country.address(),
-    tld: country.tld(),
-    latitude: country.latitude(),
-    longtitude: country.longtitude(),
-    currency: country.currency(),
-    isoCode: country.isoCode(),
-    callCode: country.callCode(),
-    language: country.language(),
-    timezone: country.timezone(),
-    fullAdderss: country.fullAdderss(),
+    maleFirstName: person.male(),
+    femaleFirstName: person.female(), // hina
+    name: person.female(), // sparsh
+    lastname: person.surname(), // khandelwal
+    fullname: person.name(), // sparsh khandelwal
+    person: person.person(), // object - name with gender
+    gender: person.gender(), // male
+    prefix: person.prefix(), // Mr.
+    suffix: person.suffix(), // III
+    personDetails: person.personDetails(), // object
   };
 };
 ```
+
+### Book
+
+```javascript
+const createRandomBook = () => {
+  return {
+    title: book.title(), // Pride and Prejudice
+    author: book.author(), // William Faulkner
+    genre: book.genre(), // Crime
+  };
+};
+```
+
+### Country
+
+```javascript
+const createRandomCountry = () => {
+  return {
+    name: country.name(), // India
+    state: country.state(), // Assam
+    city: country.city(), // Silchar
+    pincode: country.postalCode(), // 955094
+    houseNo: country.house(), // 47
+    address: country.address(), // Street No. 6, 4A Block
+    tld: country.tld(), // .in
+    latitude: country.latitude(), // 15.2464107
+    longtitude: country.longtitude(), // 154.8926697
+    currency: country.currency(), // { short: 'INR', long: 'Indian Rupee' }
+    isoCode: country.isoCode(), // IN
+    callCode: country.callCode(), // +91
+    language: country.language(), // English
+    timezone: country.timezone(), // Asia/Kolkata
+    fullAdderss: country.fullAdderss(), // 47 Street No. 6, 4A Block - 955094 Silchar, Assam - India IN
+    countryDetails: country.countryDetails(),
+  };
+};
+```
+
+### Book Methods
+
+```javascript
+title() String
+author() String
+genre() String
+```
+
+### Country Methods
+
+```javascript
+male() String
+female() String
+surname() String
+name() String
+person() Object
+gender() String
+prefix() String
+suffix() String
+personDetails() Object
+```
+
+### Person Methods
+
+```javascript
+name() String
+state() String
+city() String
+postalCode() Number
+house() Number
+address() String
+tld() String
+latitude() Number
+longtitude() Number
+currency() String
+isoCode() String
+callCode() String
+language() String
+timezone() String
+fullAdderss() String
+countryDetails() Object
+```
+
+### To DO
 
 #### Other methods and options are coming soon...
