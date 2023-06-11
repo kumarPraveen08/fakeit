@@ -1,7 +1,7 @@
 # FAKEIT
 
-Fake Details Generator
-20+ functions and coming more...
+Fake Details Generator  
+35+ functions and coming more...
 
 ## Install
 
@@ -15,10 +15,10 @@ npm install fakeit ~~ upcoming
 
 ```javascript
 // ESM
-import { person, country, book } from "@praveen/fakeit";
+import { person, country, book, animal } from "@praveen/fakeit";
 
 // CJS
-const { person, country, book } = require("@praveen/fakeit");
+const { person, country, book, animal } = require("@praveen/fakeit");
 ```
 
 ### Person
@@ -76,7 +76,9 @@ const createRandomCountry = () => {
 };
 ```
 
-### Book Methods
+## All Methods
+
+### Book
 
 ```javascript
 title() String
@@ -84,7 +86,7 @@ author() String
 genre() String
 ```
 
-### Country Methods
+### Country
 
 ```javascript
 male() String
@@ -98,7 +100,7 @@ suffix() String
 personDetails() Object
 ```
 
-### Person Methods
+### Person
 
 ```javascript
 name() String
@@ -117,6 +119,24 @@ language() String
 timezone() String
 fullAdderss() String
 countryDetails() Object
+```
+
+### Animal
+
+```javascript
+bird() String
+mammal() String
+reptile() String
+fish() String
+insect() String
+amphibian() String
+mollusk() String
+crustacean() String
+arachnid() String
+echinoderm() String
+annelid() String
+sponge() String
+animal() Object
 ```
 
 ### To DO
