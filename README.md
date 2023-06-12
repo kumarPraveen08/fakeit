@@ -90,31 +90,7 @@ bookDetails() Object
 ### Country
 
 ```javascript
-male() String
-female() String
-surname() String
-name() String
-person() Object
-gender() String
-prefix() String
-suffix() String
-personDetails() Object
-```
-
-### Person
-
-```javascript
-name() String
-age() Number
-birth() String
-zodiac() String
-profile(size) String (200)
-profileWithId(size, string) String // (200, 'user1')
-avatar1(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', 'ffffff', 50, 100)
-avatar2(w,h,shape,bg,blur,sat) String // (200, 200, '', 'ffffff', 50, 100)
-avatar3(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', '000000', 50, 100)
-avatar4(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', 'ffffff', 50, 100)
-avatar5(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', 'ffffff', 50, 100)
+name(); String
 state() String
 city() String
 postalCode() Number
@@ -130,6 +106,32 @@ language() String
 timezone() String
 fullAdderss() String
 countryDetails() Object
+```
+
+### Person
+
+```javascript
+gender() String
+male() String
+female() String
+surname() String
+name() String
+person() Object
+prefix() String
+suffix() String
+personDetails() Object
+age() Number
+birth() String
+zodiac() String
+profile(size) String // (200)
+profileWithId(size, string) String // (200, 'user1')
+avatar1(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', 'ffffff', 50, 100)
+avatar2(w,h,shape,bg,blur,sat) String // (200, 200, '', 'ffffff', 50, 100)
+avatar3(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', '000000', 50, 100)
+avatar4(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', 'ffffff', 50, 100)
+avatar5(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', 'ffffff', 50, 100)
+personDetails(); Object
+
 ```
 
 ### Animal
