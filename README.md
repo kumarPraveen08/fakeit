@@ -188,7 +188,7 @@ unionpay() Object
 diners() Object
 discover() Object
 amex() Object
-generateFakeCreditCard(string) Object // ('visa')
+card(string) Object // ('visa')
 ```
 
 ### Car
