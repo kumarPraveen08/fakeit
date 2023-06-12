@@ -185,7 +185,7 @@ username() String
 password(length, includeSpecialChars, includeSimilarChars) String // (16, true, true)
 ipV4Address() String
 ipV6Address() String
-hashtag(num) Array
+user() Array
 ```
 
 ### Credit Card
@@ -209,6 +209,13 @@ color() String
 carYear() Number
 engine() String
 carDetails() Object
+```
+
+### Post
+
+```javascript
+hashtag() Array
+post() Object
 ```
 
 ### To DO

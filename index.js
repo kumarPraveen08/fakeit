@@ -7,3 +7,4 @@ exports.company = require("./lib/company.js");
 exports.image = require("./lib/image.js");
 exports.card = require("./lib/card.js");
 exports.car = require("./lib/car.js");
+exports.post = require("./lib/post.js");
