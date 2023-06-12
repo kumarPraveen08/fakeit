@@ -1,7 +1,7 @@
 # FAKEIT
 
 Fake Details Generator  
-50+ functions and coming more...
+70+ functions and coming more...
 
 ## Install
 
@@ -105,6 +105,9 @@ personDetails() Object
 
 ```javascript
 name() String
+age() Number
+birth() String
+zodiac() String
 state() String
 city() String
 postalCode() Number
@@ -176,11 +179,32 @@ ipV6Address() String
 hashtag(num) Array
 ```
 
+### Credit Card
+
+```javascript
+visa() Object
+mastercard() Object
+unionpay() Object
+diners() Object
+discover() Object
+amex() Object
+generateFakeCreditCard(string) Object // ('visa')
+```
+
+### Car
+
+```javascript
+maker() String
+model() String
+color() String
+carYear() Number
+engine() String
+carDetails() Object
+```
+
 ### To DO
 
 #### Other methods and options are coming soon...
 
 User  
-Credit card  
-Car  
 Post
