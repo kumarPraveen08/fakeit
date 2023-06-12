@@ -108,6 +108,13 @@ name() String
 age() Number
 birth() String
 zodiac() String
+profile(size) String (200)
+profileWithId(size, string) String // (200, 'user1')
+avatar1(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', 'ffffff', 50, 100)
+avatar2(w,h,shape,bg,blur,sat) String // (200, 200, '', 'ffffff', 50, 100)
+avatar3(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', '000000', 50, 100)
+avatar4(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', 'ffffff', 50, 100)
+avatar5(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', 'ffffff', 50, 100)
 state() String
 city() String
 postalCode() Number
