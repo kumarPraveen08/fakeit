@@ -1,5 +1,4 @@
 const random = require("../lib/random.js");
-const person = require("../lib/person.js");
 
 exports.domainTld = [
   "co",

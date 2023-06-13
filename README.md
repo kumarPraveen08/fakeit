@@ -1,7 +1,7 @@
 # FAKEIT
 
 Fake Details Generator  
-70+ functions and coming more...
+115+ functions and coming more...
 
 ## Install
 
@@ -90,7 +90,7 @@ bookDetails() Object
 ### Country
 
 ```javascript
-name(); String
+name() String
 state() String
 city() String
 postalCode() Number
@@ -131,6 +131,19 @@ avatar3(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', '000000', 50, 100)
 avatar4(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', 'ffffff', 50, 100)
 avatar5(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', 'ffffff', 50, 100)
 personDetails(); Object
+phone() Number
+bloodGroup() String
+personWeight() Number
+personHeight() Number
+favoriteColor() String
+eyeColor() String
+hairColor() String
+favoriteStar() String
+favoriteActress() String
+favoriteActor() String
+personCard() Object
+personVehicle() Object
+userAgent() String
 
 ```
 
@@ -182,10 +195,23 @@ url() String
 
 ```javascript
 username() String
+userFirstName() String
+userLastName() String
+userAge() Number
+userBirth(age) String // (29)
+userProfileImage(size) String // size (200)
+userZodiac() String
+userGender() String
+email() String
 password(length, includeSpecialChars, includeSimilarChars) String // (16, true, true)
+website() String
+userAddress() Object
+ipAddress() String
+macAddress() String
+ipV4Address() String
 ipV4Address() String
 ipV6Address() String
-user() Array
+user(size) Array // profile image size/(200)
 ```
 
 ### Credit Card
@@ -214,9 +240,8 @@ carDetails() Object
 ### Post
 
 ```javascript
-hashtag() Array
 post(postId) Object
-hashtag() Object
+hashtag() Array
 getCommentsByPostId(postId) Object
 getCommentById(commentId) Object
 getUserById(userId) Object
@@ -230,6 +255,3 @@ users() Object
 ### To DO
 
 #### Other methods and options are coming soon...
-
-User  
-Post
