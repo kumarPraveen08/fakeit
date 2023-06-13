@@ -215,7 +215,16 @@ carDetails() Object
 
 ```javascript
 hashtag() Array
-post() Object
+post(postId) Object
+hashtag() Object
+getCommentsByPostId(postId) Object
+getCommentById(commentId) Object
+getUserById(userId) Object
+getPostsByUserId(userId) Object
+getPostById(postId) Object
+posts() Object
+comments() Object
+users() Object
 ```
 
 ### To DO
