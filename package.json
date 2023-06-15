@@ -1,5 +1,5 @@
 {
-  "name": "fakeit",
+  "name": "@praveen-prajapati/fakeit",
   "version": "1.0.0",
   "description": "fake details generator",
   "main": "index.js",

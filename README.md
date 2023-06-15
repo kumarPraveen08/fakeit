@@ -6,7 +6,7 @@ Fake Info Generator
 ## Install
 
 ```javascript
-npm install fakeit ~~ upcoming
+npm install @praveen_prajapati/fakeit
 ```
 
 ## Simple Usage
@@ -17,12 +17,12 @@ npm install fakeit ~~ upcoming
 // ESM
 import { person, country, book, animal } from "fakeit";
 OR
-import fake from "fakeit";
+import fake from "@praveen_prajapati/fakeit";
 
 // CJS
 const { person, country, book, animal } = require("fakeit");
 OR
-const fake from "fakeit";
+const fake from "@praveen_prajapati/fakeit";
 ```
 
 ### Example
