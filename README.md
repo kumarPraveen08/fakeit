@@ -51,6 +51,10 @@ const createRandomBook = () => {
 
 ## All Methods
 
+```
+{ person, country, book, animal, card, image, car, post, user, company }
+```
+
 ### Book
 
 ```javascript
@@ -161,6 +165,7 @@ templateImage(w, h, bgColor, color, format, text) String // (200, 300, 000000, f
 ### Url
 
 ```javascript
+// Use image.url()
 url() String
 ```
 
