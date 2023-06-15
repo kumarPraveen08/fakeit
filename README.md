@@ -1,6 +1,6 @@
 # FAKEIT
 
-Fake Details Generator  
+Fake Info Generator  
 115+ functions and coming more...
 
 ## Install
@@ -15,63 +15,36 @@ npm install fakeit ~~ upcoming
 
 ```javascript
 // ESM
-import { person, country, book, animal } from "@praveen/fakeit";
+import { person, country, book, animal } from "fakeit";
+OR
+import fake from "fakeit";
 
 // CJS
-const { person, country, book, animal } = require("@praveen/fakeit");
+const { person, country, book, animal } = require("fakeit");
+OR
+const fake from "fakeit";
 ```
 
-### Person
+### Example
 
 ```javascript
-const createRandomPerson = () => {
-  return {
-    maleFirstName: person.male(), // sparsh
-    femaleFirstName: person.female(), // hina
-    lastname: person.surname(), // khandelwal
-    fullname: person.name(), // sparsh khandelwal
-    person: person.person(), // object - name with gender
-    gender: person.gender(), // male
-    prefix: person.prefix(), // Mr.
-    suffix: person.suffix(), // III
-    personDetails: person.personDetails(), // object
-  };
-};
-```
-
-### Book
-
-```javascript
+// const { book } = require("fakeit");
 const createRandomBook = () => {
   return {
     title: book.title(), // Pride and Prejudice
     author: book.author(), // William Faulkner
     genre: book.genre(), // Crime
+    genre: book.bookInfo(), // Object
   };
 };
-```
 
-### Country
-
-```javascript
-const createRandomCountry = () => {
+// const fake = require("fakeit");
+const createRandomBook = () => {
   return {
-    name: country.name(), // India
-    state: country.state(), // Assam
-    city: country.city(), // Silchar
-    pincode: country.postalCode(), // 955094
-    houseNo: country.house(), // 47
-    address: country.address(), // Street No. 6, 4A Block
-    tld: country.tld(), // .in
-    latitude: country.latitude(), // 15.2464107
-    longtitude: country.longtitude(), // 154.8926697
-    currency: country.currency(), // { short: 'INR', long: 'Indian Rupee' }
-    isoCode: country.isoCode(), // IN
-    callCode: country.callCode(), // +91
-    language: country.language(), // English
-    timezone: country.timezone(), // Asia/Kolkata
-    fullAdderss: country.fullAdderss(), // 47 Street No. 6, 4A Block - 955094 Silchar, Assam - India IN
-    countryDetails: country.countryDetails(),
+    title: fake.book.title(), // Pride and Prejudice
+    author: fake.book.author(), // William Faulkner
+    genre: fake.book.genre(), // Crime
+    genre: fake.book.bookInfo(), // Object
   };
 };
 ```
@@ -84,7 +57,7 @@ const createRandomCountry = () => {
 title() String
 author() String
 genre() String
-bookDetails() Object
+bookInfo() Object
 ```
 
 ### Country
@@ -105,7 +78,7 @@ callCode() String
 language() String
 timezone() String
 fullAdderss() String
-countryDetails() Object
+countryInfo() Object
 ```
 
 ### Person
@@ -119,7 +92,7 @@ name() String
 person() Object
 prefix() String
 suffix() String
-personDetails() Object
+personInfo() Object
 age() Number
 birth() String
 zodiac() String
@@ -130,7 +103,7 @@ avatar2(w,h,shape,bg,blur,sat) String // (200, 200, '', 'ffffff', 50, 100)
 avatar3(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', '000000', 50, 100)
 avatar4(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', 'ffffff', 50, 100)
 avatar5(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', 'ffffff', 50, 100)
-personDetails(); Object
+personInfo(); Object
 phone() Number
 bloodGroup() String
 personWeight() Number
@@ -162,7 +135,7 @@ arachnid() String
 echinoderm() String
 annelid() String
 sponge() String
-animal() Object
+animalInfo() Object
 ```
 
 ### Company
@@ -174,7 +147,7 @@ smallSlogan() String
 sloganWithKeyword(string) String
 domain() String
 companyEmail() String
-company(); Object
+companyInfo(); Object
 ```
 
 ### Image
@@ -211,7 +184,7 @@ macAddress() String
 ipV4Address() String
 ipV4Address() String
 ipV6Address() String
-user(size) Array // profile image size/(200)
+userInfo(size) Array // profile image size/(200)
 ```
 
 ### Credit Card
@@ -234,7 +207,7 @@ model() String
 color() String
 carYear() Number
 engine() String
-carDetails() Object
+carInfo() Object
 ```
 
 ### Post

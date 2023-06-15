@@ -11,13 +11,15 @@
     "url": "git+https://github.com/kumarPraveen08/fakeit.git"
   },
   "keywords": [
-    "fake",
-    "name",
-    "fake",
+    "fake name",
+    "fake address",
     "person",
-    "fake",
+    "company",
     "address",
-    "generator"
+    "credit card",
+    "fake user generator",
+    "animal",
+    "post"
   ],
   "author": "Praveen Prajapati",
   "license": "ISC",
