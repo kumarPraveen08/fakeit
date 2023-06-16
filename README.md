@@ -1,7 +1,7 @@
 # FAKEIT
 
 Fake Info Generator  
-115+ functions and coming more...
+125+ functions and coming more...
 
 ## Install
 
@@ -228,6 +228,41 @@ getPostById(postId) Object
 posts() Object
 comments() Object
 users() Object
+```
+
+### Quote
+
+```javascript
+animeQuote() Object
+bibleVerse() Object
+bhagavadGitaVerse() Object
+quote() Object
+tongueTwister() String
+```
+
+### Alias
+
+```javascript
+hackerName() String
+awesomeName() Object
+```
+
+### Lorem
+
+```javascript
+paragraphs(num, paragraphType, sentenceType, type);
+Array; // (2, 'small', 'medium', 'lorem')
+sentences(num, sentenceType, type);
+Array; // (2, 'large', 'english')
+words(num, type);
+String; // (8, 'lorem')
+```
+
+### Business
+
+```javascript
+name(string);
+String; // ('pearl')
 ```
 
 ### To DO

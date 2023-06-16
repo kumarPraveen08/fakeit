@@ -8,3 +8,6 @@ exports.image = require("./lib/image.js");
 exports.card = require("./lib/card.js");
 exports.car = require("./lib/car.js");
 exports.post = require("./lib/post.js");
+exports.quote = require("./lib/quote.js");
+exports.alias = require("./lib/alias.js");
+exports.lorem = require("./lib/lorem.js");
