@@ -52,7 +52,7 @@ const createRandomBook = () => {
 ## All Methods
 
 ```
-{ person, country, book, animal, card, image, car, post, user, company, lorem, business, quote, alias, space, food, human, house, space, vehicle}
+{ person, country, book, animal, card, image, car, post, user, company, lorem, business, quote, alias, space, food, human, house, space, vehicle, song}
 ```
 
 ### Book
@@ -255,6 +255,7 @@ awesomeName() Object
 paragraphs(num, paragraphType, sentenceType, type) Array // (2, 'small', 'medium', 'lorem')
 sentences(num, sentenceType, type) Array // (2, 'large', 'english')
 words(num, type) String // (8, 'lorem')
+numberToWords(string) String // ('120') // one hundred twenty
 ```
 
 ### Business
@@ -294,12 +295,21 @@ emotion() String
 ```javascript
 vegetable() String
 fruit() String
+foodName() String
+drink() String
 ```
 
 ### Vehicle
 
 ```javascript
 transport() String
+```
+
+### Song
+
+```javascript
+songName() String
+genre() String
 ```
 
 ### Special Thanks
