@@ -11,3 +11,4 @@ exports.post = require("./lib/post.js");
 exports.quote = require("./lib/quote.js");
 exports.alias = require("./lib/alias.js");
 exports.lorem = require("./lib/lorem.js");
+exports.business = require("./lib/business.js");
