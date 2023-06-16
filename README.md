@@ -52,7 +52,7 @@ const createRandomBook = () => {
 ## All Methods
 
 ```
-{ person, country, book, animal, card, image, car, post, user, company }
+{ person, country, book, animal, card, image, car, post, user, company, lorem, business, quote, alias}
 ```
 
 ### Book
