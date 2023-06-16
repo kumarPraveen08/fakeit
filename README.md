@@ -52,7 +52,7 @@ const createRandomBook = () => {
 ## All Methods
 
 ```
-{ person, country, book, animal, card, image, car, post, user, company, lorem, business, quote, alias}
+{ person, country, book, animal, card, image, car, post, user, company, lorem, business, quote, alias, space, food, human, house, space, vehicle}
 ```
 
 ### Book
@@ -139,6 +139,8 @@ arachnid() String
 echinoderm() String
 annelid() String
 sponge() String
+catBreed() String
+dogBreed() String
 animalInfo() Object
 ```
 
@@ -187,7 +189,6 @@ userAddress() Object
 ipAddress() String
 macAddress() String
 ipV4Address() String
-ipV4Address() String
 ipV6Address() String
 userInfo(size) Array // profile image size/(200)
 ```
@@ -201,6 +202,7 @@ unionpay() Object
 diners() Object
 discover() Object
 amex() Object
+jcb() Object
 card(string) Object // ('visa')
 ```
 
@@ -250,20 +252,61 @@ awesomeName() Object
 ### Lorem
 
 ```javascript
-paragraphs(num, paragraphType, sentenceType, type);
-Array; // (2, 'small', 'medium', 'lorem')
-sentences(num, sentenceType, type);
-Array; // (2, 'large', 'english')
-words(num, type);
-String; // (8, 'lorem')
+paragraphs(num, paragraphType, sentenceType, type) Array // (2, 'small', 'medium', 'lorem')
+sentences(num, sentenceType, type) Array // (2, 'large', 'english')
+words(num, type) String // (8, 'lorem')
 ```
 
 ### Business
 
 ```javascript
-name(string);
-String; // ('pearl')
+name(string) String; // ('pearl')
 ```
+
+### Space
+
+```javascript
+planet() String
+galaxy() String
+star() String
+moon() String
+```
+
+### House
+
+```javascript
+flower() String
+kitchen() String
+instrument() String
+furniture() String
+room() String
+```
+
+### Human
+
+```javascript
+bodyPart() String
+emotion() String
+```
+
+### Food
+
+```javascript
+vegetable() String
+fruit() String
+```
+
+### Vehicle
+
+```javascript
+transport() String
+```
+
+### Special Thanks
+
+> dummyimage.com
+> loremflickr.com
+> lorempixel.com
 
 ### To DO
 
