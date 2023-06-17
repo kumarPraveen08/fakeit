@@ -1,7 +1,7 @@
 # FAKEIT
 
 Fake Info Generator  
-145+ functions and coming more...
+180+ functions and coming more...
 
 ## Install
 
