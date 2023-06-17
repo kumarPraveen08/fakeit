@@ -52,7 +52,7 @@ const createRandomBook = () => {
 ## All Methods
 
 ```
-{ person, country, book, animal, card, image, car, post, user, company, lorem, business, quote, alias, space, food, human, house, space, vehicle, song}
+{ person, country, book, animal, card, image, car, post, user, company, lorem, business, quote, alias, space, food, human, house, space, vehicle, song, science}
 ```
 
 ### Book
@@ -109,6 +109,7 @@ avatar4(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', 'ffffff', 50, 100)
 avatar5(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', 'ffffff', 50, 100)
 personInfo(); Object
 phone() Number
+phoneFormat(string, string, string) String // ("9876543210", "-", "+1")
 bloodGroup() String
 personWeight() Number
 personHeight() Number
@@ -159,16 +160,35 @@ companyInfo(); Object
 ### Image
 
 ```javascript
-image(w, h) String // (200, 200)
-imageWithKeyword(w, h, string) String // (200, 200, dog)
-templateImage(w, h, bgColor, color, format, text) String // (200, 300, 000000, ffffff, .png, placeholder)
-```
-
-### Url
-
-```javascript
-// Use image.url()
-url() String
+urlLorempixel() String // (width, height, bgcolor, color, format, text)
+urlPlaceholder() String // (width, height, text)
+urlPicsumPhotos() String // (width, height, isGrayscale, blur)
+urlLoremFlickr() String // (width, height, keyword)
+avatarDoodleipsumFive() String // (width, height, shape, bgcolor, blur, saturation)
+avatarDoodleipsumFour() String // (width, height, shape, bgcolor, blur, saturation)
+avatarDoodleipsumThree() String // (width, height, shape, bgcolor, blur, saturation)
+avatarDoodleipsumTwo() String // (width, height, shape, bgcolor, blur, saturation)
+avatarDoodleipsumOne() String // (width, height, shape, bgcolor, blur, saturation)
+avatarLegacy() String
+avatarGitHub() String
+avatar() String
+city() String // (width, height, randomize:boolean)
+business() String // (width, height, randomize:boolean)
+food() String // (width, height, randomize:boolean)
+url() String // (width, height, randomize:boolean)
+fashion() String // (width, height, randomize:boolean)
+animal() String // (width, height, randomize:boolean)
+cat() String // (width, height, randomize:boolean)
+dog() String // (width, height, randomize:boolean)
+nature() String // (width, height, randomize:boolean)
+nightlife() String // (width, height, randomize:boolean)
+people() String // (width, height, randomize:boolean)
+sports() String // (width, height, randomize:boolean)
+transport() String // (width, height, randomize:boolean)
+technics() String // (width, height, randomize:boolean)
+abstract() String // (width, height, randomize:boolean)
+bird() String // (width, height, randomize:boolean)
+image() String // (width, height)
 ```
 
 ### User
@@ -312,11 +332,27 @@ songName() String
 genre() String
 ```
 
+### Science
+
+```javascript
+unit() Object
+findChemicalElementsByElementGroup(string) Object // ('Nonmetal')
+findChemicalElementBySymbol(string) Object // ('He')
+findChemicalElementByAtomicNumber(number) Object // (10)
+findChemicalElementByName(string) Object // ('Oxygen')
+chemicalElement() Object
+```
+
 ### Special Thanks
 
-> dummyimage.com
-> loremflickr.com
-> lorempixel.com
+> dummyimage.com  
+> loremflickr.com  
+> lorempixel.com  
+> via.placeholder.com  
+> picsum.photos  
+> doodleipsum.com  
+> cloudflare-ipfs.com avatar  
+> github avatars
 
 ### To DO
 

@@ -18,3 +18,4 @@ exports.human = require("./lib/human.js");
 exports.food = require("./lib/food.js");
 exports.vehicle = require("./lib/vehicle.js");
 exports.song = require("./lib/song.js");
+exports.science = require("./lib/science.js");
