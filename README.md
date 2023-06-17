@@ -336,10 +336,10 @@ genre() String
 
 ```javascript
 unit() Object
-findChemicalElementsByElementGroup(string) Object // ('Nonmetal')
-findChemicalElementBySymbol(string) Object // ('He')
-findChemicalElementByAtomicNumber(number) Object // (10)
-findChemicalElementByName(string) Object // ('Oxygen')
+getChemicalElementsByElementGroup(string) Object // ('Nonmetal')
+getChemicalElementBySymbol(string) Object // ('He')
+getChemicalElementByAtomicNumber(number) Object // (10)
+getChemicalElementByName(string) Object // ('Oxygen')
 chemicalElement() Object
 ```
 
