@@ -1,6 +1,6 @@
 {
   "name": "@praveen_prajapati/fakeit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fake details generator",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,23 @@
     "credit card",
     "fake user generator",
     "animal",
-    "post"
+    "post",
+    "alias",
+    "space",
+    "science",
+    "business",
+    "lorem",
+    "human",
+    "quote",
+    "song",
+    "house",
+    "food",
+    "fake data",
+    "fake content",
+    "faker",
+    "fakeit",
+    "fake content generator",
+    "fake person"
   ],
   "author": "Praveen Prajapati",
   "license": "ISC",

@@ -160,7 +160,7 @@ companyInfo(); Object
 ### Image
 
 ```javascript
-urlLorempixel() String // (width, height, bgcolor, color, format, text)
+urlDummyImage() String // (width, height, bgcolor, color, format, text)
 urlPlaceholder() String // (width, height, text)
 urlPicsumPhotos() String // (width, height, isGrayscale, blur)
 urlLoremFlickr() String // (width, height, keyword)
