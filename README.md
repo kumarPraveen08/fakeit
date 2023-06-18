@@ -15,12 +15,12 @@ npm install @praveen_prajapati/fakeit
 
 ```javascript
 // ESM
-import { person, country, book, animal } from "fakeit";
+import { person, country, book, animal } from "@praveen_prajapati/fakeit";
 OR
 import fake from "@praveen_prajapati/fakeit";
 
 // CJS
-const { person, country, book, animal } = require("fakeit");
+const { person, country, book, animal } = require("@praveen_prajapati/fakeit");
 OR
 const fake from "@praveen_prajapati/fakeit";
 ```
@@ -28,7 +28,7 @@ const fake from "@praveen_prajapati/fakeit";
 ### Example
 
 ```javascript
-// const { book } = require("fakeit");
+// const { book } = require("@praveen_prajapati/fakeit");
 const createRandomBook = () => {
   return {
     title: book.title(), // Pride and Prejudice
@@ -38,7 +38,7 @@ const createRandomBook = () => {
   };
 };
 
-// const fake = require("fakeit");
+// const fake = require("@praveen_prajapati/fakeit");
 const createRandomBook = () => {
   return {
     title: fake.book.title(), // Pride and Prejudice
