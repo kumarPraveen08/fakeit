@@ -109,7 +109,7 @@ avatar4(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', 'ffffff', 50, 100)
 avatar5(w,h,shape,bg,blur,sat) String // (200, 200, 'circle', 'ffffff', 50, 100)
 personInfo(); Object
 phone() Number
-phoneFormat(string, string, string) String // ("9876543210", "-", "+1")
+phoneFormat(phoneNumber:string, sperator:string, callingCode:string) String // ("9876543210", "-", "+1")
 bloodGroup() String
 personWeight() Number
 personHeight() Number
@@ -129,6 +129,7 @@ userAgent() String
 
 ```javascript
 bird() String
+petName() String
 mammal() String
 reptile() String
 fish() String
@@ -341,6 +342,25 @@ getChemicalElementBySymbol(string) Object // ('He')
 getChemicalElementByAtomicNumber(number) Object // (10)
 getChemicalElementByName(string) Object // ('Oxygen')
 chemicalElement() Object
+```
+
+### Color
+
+```javascript
+rgbToHex(R,G,B) String (0,0,0)
+PMScolor() String
+HSLcolor() String
+RGBcolor() String
+CMYKcolor() String
+HEXcolor() String
+```
+
+### Celebrity
+
+```javascript
+actor() String
+businessPerson() String
+sportsPersons() String
 ```
 
 ### Special Thanks
