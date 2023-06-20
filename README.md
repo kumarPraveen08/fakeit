@@ -51,8 +51,8 @@ const createRandomBook = () => {
 
 ## All Methods
 
-```
-{ person, country, book, animal, card, image, car, post, user, company, lorem, business, quote, alias, space, food, human, house, space, vehicle, song, science, celebrity, color}
+```javascript
+// { person, country, book, animal, card, image, car, post, user, company, lorem, business, quote, alias, space, food, human, house, space, vehicle, song, science, celebrity, color }
 ```
 
 ### Book
@@ -347,7 +347,7 @@ chemicalElement() Object
 ### Color
 
 ```javascript
-rgbToHex(R,G,B) String (0,0,0)
+rgbToHex(R,G,B) String // (0,0,0)
 PMScolor() String
 HSLcolor() String
 RGBcolor() String
